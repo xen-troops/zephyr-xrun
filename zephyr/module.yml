@@ -1,0 +1,5 @@
+name: xrun
+build:
+  cmake: .
+  kconfig: Kconfig
+
