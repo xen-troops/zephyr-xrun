@@ -15,7 +15,7 @@
 #include <zephyr/sys/slist.h>
 
 #if !defined(CONFIG_BOARD_NATIVE_POSIX)
-#include <zephyr/xen/public/domctl.h>
+#include <xen/public/domctl.h>
 #endif
 
 #include <storage.h>
